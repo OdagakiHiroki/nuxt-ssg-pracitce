@@ -1,7 +1,6 @@
 <template>
   <div class="container">
     <div>
-      <Logo />
       <h1 class="title">
         nuxt-ssg-pracitce
       </h1>
@@ -28,7 +27,7 @@
 </template>
 
 <script>
-export default {}
+export default {};
 </script>
 
 <style>
