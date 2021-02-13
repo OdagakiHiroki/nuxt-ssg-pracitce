@@ -9,11 +9,11 @@
 <script>
 export default {
   methods: {
-    triggerTestFunc (text) {
-      this.$testFunc(text)
-    }
-  }
-}
+    triggerTestFunc(text) {
+      this.$testFunc(text);
+    },
+  },
+};
 </script>
 
 <style lang="scss">
