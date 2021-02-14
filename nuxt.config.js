@@ -20,6 +20,7 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
+    '@/assets/css/html5reset-1.6.1.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
