@@ -20,6 +20,11 @@
       @changeValue="changeInputAddress"
     />
     <div>入力値は: {{address}}</div>
+    <BaseButton
+      class="base-button"
+      text="登録"
+      @clickButton="registerUserInfo"
+    />
   </div>
 </template>
 
@@ -54,6 +59,10 @@ export default {
     changeInputAddress(value) {
       this.address = value;
     },
+    registerUserInfo() {
+      // サーバーへの登録処理
+      // storeに格納
+    },
   },
 };
 </script>
@@ -70,6 +79,9 @@ export default {
     & + .base-input {
       margin-top: 10px;
     }
+  }
+  .base-button{
+    margin-top: 10px;
   }
 }
 </style>
