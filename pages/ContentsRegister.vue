@@ -66,7 +66,8 @@ export default {
       this.$store.dispatch('users/setBirthDay', { birthDay: this.birthDay });
       this.$store.dispatch('users/setAddress', { address: this.address });
 
-      this.$router.push({ name: 'ContentsConfirm' });
+      // this.$router.push({ name: 'ContentsConfirm' });
+      window.location.href = '/ContentsConfirm';
     },
   },
 };
