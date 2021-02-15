@@ -65,6 +65,8 @@ export default {
       this.$store.dispatch('users/setName', { name: this.name });
       this.$store.dispatch('users/setBirthDay', { birthDay: this.birthDay });
       this.$store.dispatch('users/setAddress', { address: this.address });
+
+      this.$router.push({ name: 'ContentsConfirm' });
     },
   },
 };
