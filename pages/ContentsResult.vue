@@ -27,7 +27,8 @@ export default {
 
   methods: {
     goToTop() {
-      this.$router.push({ name: 'ContentsRegister' });
+      // this.$router.push({ name: 'ContentsRegister' });
+      window.location.href = '/ContentsRegister';
     },
   },
 };

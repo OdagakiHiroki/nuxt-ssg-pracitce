@@ -38,7 +38,8 @@ export default {
       this.$store.dispatch('users/setAddress', { address: null });
     },
     goToResult() {
-      this.$router.push({ name: 'ContentsResult' });
+      // this.$router.push({ name: 'ContentsResult' });
+      window.location.href = '/ContentsResult';
     },
   },
 };
