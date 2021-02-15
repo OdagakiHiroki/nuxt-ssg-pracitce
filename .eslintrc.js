@@ -20,5 +20,9 @@ module.exports = {
     'import/no-extraneous-dependencies': ['error', {
       devDependencies: true, // devDependenciesのimportを許可
     }],
+    'no-shadow': ['error', { allow: ['state'] }], // storeのstateでlintエラーが出るので許可
+  },
+  settings: {
+    'import/core-modules': ['vuex'], // vuexのimportを行なった際のlintエラー回避
   },
 };
